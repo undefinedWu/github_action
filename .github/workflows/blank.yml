@@ -12,5 +12,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: node -v
-      - run: node ./src/index.js
+      - run: |
+          node -v
+          node ./src/index.js
